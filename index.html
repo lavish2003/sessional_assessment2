@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <title>Gallery</title>
+    <link rel="stylesheet" href="./style.css"
 </head>
 <body>
     <section id="nav">
@@ -22,28 +26,61 @@
             </div>
         </div>
     </section>
-    <!-- End of Navbar -->
-
-    <!-- Hero Section -->
+   
     <section id="hero">
         <div class="container">
             <div class="overlay"></div>
                 <div class="image-container"></div>
             </div>
                 <div class="hero-text">
-                    <h1>
-                        
+                    <h1>Fetch Images</h1>
+                    <button id="click">Fetch Images!</button>     
             </section>
             <!-- End of Hero Section -->
 
             
-            </section> -->
+            </section>
 
             
-            </section>
+            
         </div>
+        <div class="item">
             
+        </div>
+        <a class="load-more" id="upload">Load More</a>
+            <div class="upload">
+                <h1>Want To Add A Post?</h1>
+                <input type="file" id="real-file" hidden="hidden" />
+                <button type="button" id="custom-button">CHOOSE A FILE</button>
+                <span id="custom-text">No file chosen, yet.</span>
+                </disv>
+            </section>
+            <div class="link">
+                <a href="./index.html">MY BLOG</a>
+
+            </div>
+
         
-            
+        <footer>
+            <h1 id="contact-me">Contact Me</h1>
+            <!-- <p>Lavish Bansal</p> -->
+            <p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+            <div class="social">
+                <a href="https://www.facebook.com/lavish.bansal.3910"> <img src="./facebook_logo_icon_147291.png" id="fb"> </a>
+                <a href="https://www.linkedin.com/in/lavish-bansal-b05526220/"> <img src="./linkedin.png" id="ldn"> </a>
+                <a href="https://www.instagram.com/b_lavish/"> <img src="./instagram.png" id="ig"> </a>
+            </div>
+            <p class="end">CopyRight By b_lavish</p>
+<!-- 
+            <div class="top">
+                <a href="./portfolio.html" title="Go to top"> Top </a>
+            </div> -->
+        </footer>
+        
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./script.js"></script>
         </body>
         </html>
