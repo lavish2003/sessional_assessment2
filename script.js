@@ -34,7 +34,6 @@ document.querySelector('#click').addEventListener('click', () => {
                 </div>
                 `
             }
-            console.log(output);
 document.querySelector('#item').innerHTML = output
 
             }
